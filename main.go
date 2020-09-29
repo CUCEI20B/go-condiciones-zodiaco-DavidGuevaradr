@@ -6,9 +6,9 @@ func main() {
 	var mes int64
 	var dia int64
 
-	fmt.Println("Ingrese el dia de nacimiento: ")
+	fmt.Println("Ingrese su dia de nacimiento: ")
 	fmt.Scan(&dia)
-	fmt.Println("Ingrese el mes de nacimiento: ")
+	fmt.Println("Ingrese su mes de nacimiento: ")
 	fmt.Scan(&mes)
 
 	switch mes {
