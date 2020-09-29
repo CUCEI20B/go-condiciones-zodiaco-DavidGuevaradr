@@ -6,94 +6,94 @@ func main() {
 	var mes int64
 	var dia int64
 
-	fmt.Println("Ingrese su dia de nacimiento: ")
+	
 	fmt.Scan(&dia)
-	fmt.Println("Ingrese su mes de nacimiento: ")
+	
 	fmt.Scan(&mes)
 
 	switch mes {
 	case 1:
 		if dia < 21 {
-			fmt.Println("Capricornio")
+			fmt.Println("capricornio")
 		} else {
-			fmt.Println("Acuario")
+			fmt.Println("ccuario")
 		}
 	
 	case 2:
 		if dia < 21 {
-			fmt.Println("Acuario")
+			fmt.Println("acuario")
 		} else {
-			fmt.Println("Piscis")
+			fmt.Println("piscis")
 		}
 	
 	case 3:
 		if dia < 21 {
-			fmt.Println("Piscis")
+			fmt.Println("piscis")
 		} else {
-			fmt.Println("Aries")
+			fmt.Println("aries")
 		}
 
 	case 4:
 		if dia < 21 {
-			fmt.Println("Aries")
+			fmt.Println("aries")
 		} else {
-			fmt.Println("Tauro")
+			fmt.Println("tauro")
 		}
 
 	case 5:
 		if dia < 22 {
-			fmt.Println("Tauro")
+			fmt.Println("tauro")
 		} else {
-			fmt.Println("Geminis")
+			fmt.Println("geminis")
 		}
 
 	case 6:
 		if dia < 22 {
-			fmt.Println("Geminis")
+			fmt.Println("geminis")
 		} else {
-			fmt.Println("Cancer")
+			fmt.Println("cancer")
 		}
 		
 	case 7:
 		if dia < 23 {
-			fmt.Println("Cancer")
+			fmt.Println("cancer")
 		} else {
-			fmt.Println("Leo")
+			fmt.Println("leo")
 		}
 		
 	case 8:
 		if dia < 23 {
-			fmt.Println("Leo")
+			fmt.Println("leo")
 		} else {
-			fmt.Println("Virgo")
+			fmt.Println("virgo")
 		}
 		
 	case 9:
 		if dia < 24 {
-			fmt.Println("Virgo")
+			fmt.Println("virgo")
 		} else {
-			fmt.Println("Libra")
+			fmt.Println("libra")
 		}
 
 	case 10:
 		if dia < 25 {
-			fmt.Println("Libra")
+			fmt.Println("libra")
 		} else {
-			fmt.Println("Escorpio")
+			fmt.Println("escorpio")
 		}
 
 	case 11:
 		if dia < 23 {
-			fmt.Println("Escorpio")
+			fmt.Println("escorpio")
 		} else {
-			fmt.Println("Sagitario")
+			fmt.Println("sagitario")
 		}
 
 	case 12:
 		if dia < 22 {
-			fmt.Println("Sagitario")
+			fmt.Println("sagitario")
 		} else {
-			fmt.Println("Capricornio")
+			fmt.Println("capricornio")
 		}
 
 
